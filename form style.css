@@ -1,64 +1,69 @@
-.container1{
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 42px;
-    color: #000000;
-    margin-left: 210px;
+.container1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  color: #000000;
+  margin-left: 210px;
 }
-.signin{
-    width: 505px;
-    height: 450px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 150px ;
-    box-sizing: border-box;
+.signin {
+  width: 505px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+  box-sizing: border-box;
 }
 
-.name{
-    width: 505px;
-    height: 54px;
-    border: 1px solid;
-    font-size: 20px;
-    margin-bottom: 30px;
-    padding-left: 30px;
-    box-sizing: border-box;
+.name {
+  width: 505px;
+  height: 54px;
+  border: 1px solid;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
-.form-control{
-    width: 505px;
-    height: 54px;
-    border: 1px solid;
-    font-size: 20px;
-    margin-bottom: 30px;
-    padding-left: 30px;
-    box-sizing: border-box;
+.form-control {
+  width: 505px;
+  height: 54px;
+  border: 1px solid;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
-.form-control1{
-    width: 505px;
-    height: 186px;
-    border: 1px solid;
-    font-size: 20px;
-    margin-bottom: 30px;
-    padding-top: 20px;
-    padding-left: 30px;
-    box-sizing: border-box;
+.form-control1 {
+  width: 505px;
+  height: 186px;
+  border: 1px solid;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  box-sizing: border-box;
 }
 
 .button_container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.button{
-    width: 295px;
-    height: 55px;
-    background: #30ABAE;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    border-radius: 3px;
+.button {
+  width: 295px;
+  height: 55px;
+  background: #30abae;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.button:hover {
+  color: #000000;
+  opacity: 0.8;
 }
